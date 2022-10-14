@@ -1,0 +1,245 @@
+.card {
+    max-width: 341px;
+    margin: auto;
+    padding-bottom: 19px;
+    margin-bottom: 30px;
+    border: 0.3px solid #828282;
+    border-radius: 16px;
+    position: relative;
+}
+.card__img {
+    margin: 0;
+    margin-bottom: 14px;
+}
+.card__travelTime {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #9E9E9E;
+    display: flex;
+    margin-left: 12px;
+}
+.card__timeLogo {
+    margin-right: 9px;
+}
+.card__title {
+    margin: 10px 12px 10px 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #404040;
+}
+.card__ul {
+    list-style-image: url(../../images/checked.svg);
+    margin: 0;
+    padding-left: 20px;
+    list-style-position: outside;
+    margin-left: 12px;
+}
+.card__li {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B4B4B;
+    margin-bottom: 9px;
+}
+.card__time {
+    background: #D9E8FF;
+    border-radius: 11px;
+    width: 63px;
+    height: 24px;
+    text-align: center;
+    margin: 0;
+    margin-right: 6px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .25s ease-in-out;
+}
+.card__time:hover {
+    background: #6BA6FF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.card__groupTime {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.card__price {
+    font-size: 30px;
+    line-height: 20px;
+    margin: 0;
+}
+.card__rub {
+    width: 17px;
+    height: 23px;
+    margin: 0;
+    margin-left: 5px;
+}
+.card__buy {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 19px 0 19px;
+}
+.card__more {
+    background: #FED74B;
+    border: 0.5px solid #CBA500;
+    border-radius: 20px;
+    width: 165px;
+    height: 44px;
+}
+.card__priceBerth {
+    margin: 0;
+    font-size: 10px;
+    line-height: 20px;
+}
+.card__new {
+    position: absolute;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__new-yellow {
+    top: 40px;
+    width: 99px;
+    height: 35px;
+    background: #FED74B;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #3E3E3E;
+}
+.card__new-blue {
+    top: 0;
+    width: 129px;
+    height: 43px;
+    background: #7553FF;
+    border-radius: 15px 0px 12px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.card__travelTime-desktop {
+    display: none;
+}
+.card__button {
+    display: none;
+}
+.card__none {
+    display: none;
+}
+.card__priceGroup {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+}
+.card__new-dark {
+    top: 46px;
+    width: 154px;
+    height: 42px;
+    background: #099CE8;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+.card__new-blueDesk {
+    top: 59px;
+    width: 180px;
+    height: 45px;
+    background: #FFD83B;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #323232;
+}
+
+@media screen and (min-width: 1076px) {
+    .card {
+        display: flex;
+        max-width: 1070px;
+        padding: 0;
+        min-height: min-content;
+        max-height: min-content;
+    }
+    .card__button {
+        display: block;
+    }
+    .card__grid1 {
+        height: 368px;
+    }
+    .card__travelTime-mobile {
+        display: none;
+    }
+    .card__travelTime-desktop {
+        display: flex;
+        margin-left: 23px;
+        margin-bottom: 9px;
+        font-size: 14px;
+    }
+    .card__title {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 34px;
+        margin: 16px 17px 11px 23px;
+        max-width: 557px;
+    }
+    .card__ul {
+        margin-left: 23px;
+    }
+    .card__li {
+        padding-left: 14px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+    .card__time {
+        width: 73px;
+        height: 28px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;
+        background: #C5DCFF;
+        border-radius: 11px;
+        border: none;
+    }
+    .card__groupTime-desktop {
+        display: inline-flex;
+        margin: 0;
+        margin-left: 6px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .card__buy {
+        justify-content: left;
+        margin-top: 32px;
+    }
+    .card__more {
+        margin-left: 13px;
+    }
+    .card__priceBerth {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 4px;
+    }
+    .card__img {
+        margin: 0;
+    }
+    .card__timeNone {
+        display: none;
+    }
+    .card__new-none {
+        display: none;
+    }
+}
